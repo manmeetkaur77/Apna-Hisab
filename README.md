@@ -1,6 +1,6 @@
 #Budget_handler
 
-# Budget_handler
+# Apna-Hisab
 
 A simple budget management system to help you track your expenses and stay on top of your finances.
 

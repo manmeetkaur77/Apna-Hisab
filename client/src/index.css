@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  height: 80vh;
+}
+
+.resgister-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff; /* Background color */
+  border-radius: 8px; /* Rounded corners */
+  margin: 20px 0; /* Add some margin */
+}
+
+.range-text {
+  font-size: 18px; /* Adjust font size */
+  font-weight: 600; /* Semi-bold text */
+  color: #333; /* Dark text color */
+}
+
+.btn {
+  padding: 10px 25px; /* Adjust padding */
+  background: linear-gradient(135deg, #6e8efb, #a777e3); /* Gradient background */
+  color: #ffffff; /* White text color */
+  border: none; /* Remove default border */
+  border-radius: 25px; /* Rounded button */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+  transition: background 0.3s, box-shadow 0.3s; /* Smooth transitions */
+  cursor: pointer; /* Pointer cursor */
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #a777e3, #6e8efb); /* Hover effect */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Larger shadow on hover */
+}

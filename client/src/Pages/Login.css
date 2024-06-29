@@ -1,0 +1,126 @@
+.login-page {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s; /* Add transition for smooth hover effect */
+}
+
+.login-page {
+  background-color: #655767; /* Purplish color on hover */
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.login-header {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+  position: relative; /* Ensure relative positioning for absolute animation */
+}
+
+.login-header::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #9c27b0; /* Line color */
+  animation: fadeInOut 2s ease-in-out infinite; /* Animation definition */
+}
+
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0; /* Start and end with opacity 0 */
+  }
+  50% {
+    opacity: 1; /* Fully visible halfway through */
+  }
+}
+
+.login-left {
+  background-color: #fff;
+  padding: 3rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.login-button {
+  background-color: #1890ff;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #40a9ff;
+}
+
+.register-link {
+  font-size: 1rem;
+  color: #1890ff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.register-link:hover {
+  color: #40a9ff;
+}
+
+.login-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.head {
+  text-align: center;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.head h1 {
+  font-size: 3rem;
+  color: #333;
+}
+
+.head::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #2e1b0e; /* Purple color */
+  animation: fadeInOut 2s ease-in-out infinite; /* Animation definition */
+}
+
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0; /* Start and end with opacity 0 */
+  }
+  50% {
+    opacity: 1; /* Fully visible halfway through */
+  }
+}

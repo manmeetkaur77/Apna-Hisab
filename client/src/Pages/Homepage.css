@@ -1,0 +1,172 @@
+/*.filters {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    box-shadow: 0 0 3px gray;
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .filters h6 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .filter-tab {
+    display: flex;
+    align-items: center;
+  }
+  
+  .switch-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .switch-icons .mx-2 {
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  .active-icon {
+    color: #1890ff;
+  }
+  
+  .inactive-icon {
+    color: #bfbfbf;
+  }
+  
+  .content {
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 3px gray;
+    border-radius: 8px;
+  }
+  
+  .ant-modal {
+    top: 20px;
+  }
+  
+  .ant-modal-title {
+    text-align: center;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .ant-modal-footer {
+    display: none;
+  }
+  */
+  /* Homepage.css */
+
+/* Global styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5; /* Light background color */
+  margin: 0;
+  padding: 0;
+}
+
+/* Main container */
+.filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff; /* White background */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin-bottom: 20px;
+}
+
+.filters h6 {
+  margin-bottom: 10px;
+  color: #333; /* Dark text color */
+}
+
+.filter-tab,
+.switch-icons {
+  display: flex;
+  align-items: center;
+}
+
+.filter-tab h6 {
+  margin-right: 10px;
+}
+
+.switch-icons .anticon {
+  font-size: 24px;
+  cursor: pointer;
+  color: #888; /* Medium gray */
+  transition: color 0.3s ease;
+}
+
+.switch-icons .anticon.active-icon {
+  color: #1890ff; /* Ant Design primary color */
+}
+
+.content {
+  background-color: #ffffff; /* White background */
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.btn {
+  background-color: #1890ff; /* Ant Design primary color */
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #40a9ff; /* Darker shade of primary color on hover */
+}
+
+/* Table and Analytics styles */
+.ant-table-wrapper {
+  margin-top: 20px;
+}
+
+/* Modal styles */
+.ant-modal-body {
+  padding: 24px;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Form styles */
+.ant-form-item {
+  margin-bottom: 20px;
+}
+
+.ant-form-item-label {
+  font-weight: bold;
+}
+
+.ant-input,
+.ant-select-selector {
+  border-color: #d9d9d9; /* Input and select border color */
+}
+
+.ant-input:focus,
+.ant-select-focused .ant-select-selector {
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2); /* Focus border color */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .filters {
+    flex-direction: column;
+    padding: 15px;
+  }
+  .switch-icons {
+    margin-top: 10px;
+  }
+}
+

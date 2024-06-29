@@ -1,0 +1,75 @@
+/* Navbar Styling */
+/* Header.css */
+/* Header.css */
+
+/* Global styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #655767; /* Ant Design primary color */
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff; /* White text color */
+  text-transform: uppercase;
+  animation: animate-text 2s infinite linear;
+}
+
+@keyframes animate-text {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.navbar-brand:hover {
+  color: #f0f2f5; /* Light background color */
+  text-decoration: none;
+}
+
+.navbar-toggler {
+  background-color: #ffffff; /* White background for toggler */
+}
+
+.navbar-toggler-icon {
+  border-color: #ffffff; /* White color for toggler icon */
+}
+
+.nav-link {
+  color: #ffffff; /* White text color for links */
+}
+
+.nav-link:hover {
+  color: #f0f2f5; /* Light background color on hover */
+}
+
+.btn-danger {
+  background-color: #ff4d4f; /* Red color for logout button */
+  border-color: #ff4d4f;
+  color: #ffffff; /* White text color */
+}
+
+.btn-danger:hover {
+  background-color: #ff7875; /* Darker shade of red on hover */
+  border-color: #ff7875;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar-collapse {
+    background-color: #1890ff; /* Ant Design primary color */
+    padding: 10px;
+  }
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+  }
+}

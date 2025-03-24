@@ -1,6 +1,5 @@
 
 console.log("hiiiiiiiii");
-console.log("babe");
 
 import dotenv from 'dotenv';
 
